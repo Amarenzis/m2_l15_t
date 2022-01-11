@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_Nabokov", "Task1_Nabokov\Task1_Nabokov.csproj", "{40C4DC82-FFB4-438B-9E35-3E4029D4CAB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C4DC82-FFB4-438B-9E35-3E4029D4CAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C4DC82-FFB4-438B-9E35-3E4029D4CAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C4DC82-FFB4-438B-9E35-3E4029D4CAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C4DC82-FFB4-438B-9E35-3E4029D4CAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D132EA19-502C-477A-8124-C1EEE22B60F0}
+	EndGlobalSection
+EndGlobal

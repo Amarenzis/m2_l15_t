@@ -1,0 +1,207 @@
+﻿<Window x:Class="Task1_Nabokov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1_Nabokov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentReader x:Name="docViewer" ViewingMode="Scroll">
+            <FlowDocument>
+                <Section TextAlignment="Center" >
+                    <Paragraph FontSize="20">
+                        <Bold>Рейтинг романов Набокова:</Bold>
+                        от худшего к лучшему
+                        <Hyperlink NavigateUri="https://arzamas.academy/materials/1613">[0]</Hyperlink>
+                    </Paragraph>
+                    <Paragraph FontSize="18">
+                        5 образцов крупной прозы, субъективно ранжированные
+                    </Paragraph>
+                </Section>
+                <Section FontSize="16">
+                    <Paragraph>
+                        Список Вы можете увидеть ниже:
+                    </Paragraph>
+                    <List MarkerStyle="Circle">
+                        <ListItem Margin="5">
+                            <Paragraph>
+                                «Камера обскура» (1933)
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem Margin="5">
+                            <Paragraph>
+                                «Пнин» (1957)
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem Margin="5">
+                            <Paragraph>
+                                «Бледный огонь» (1962)
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem Margin="5">
+                            <Paragraph>
+                                «Лолита» (1955)
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem Margin="5">
+                            <Paragraph>
+                                «Дар» (1938)
+                            </Paragraph>
+                        </ListItem>                        
+                    </List>
+                </Section>
+                <Section FontSize="12">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="0.4*"/>
+                            <TableColumn Width="1.2*"/>
+                            <TableColumn Width="2*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Bold>Номер рейтинга</Bold>
+                                    </Paragraph>
+                                    <Paragraph/>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Bold>Название (год)</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Bold>Краткое описание</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                                
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>5</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>«Камера обскура» (1933)</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Роман или сценарная заявка? Любовный треугольник, в котором мечтающая стать актрисой 
+                                        юная особа по имени Магда не просто жестоко, но с особой изобрета­тель­ностью обманывает 
+                                        своего благодетеля, искусствоведа Кречмара, с художником Горном.
+                                    </Paragraph>
+                                    <Paragraph/>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>4</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>«Пнин» (1957)</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Русский интелли­гент Пнин оказывается в США — каза­лось бы, потеряв в жизни все 
+                                        самое дорогое, кроме страсти к науке, но со­хра­­нив при этом теплые воспо­мина­ния 
+                                        о петербургском доме, о первой юношеской любви к убитой в Бухен­вальде Мире Белоч­киной, 
+                                        о неудач­ном парижском браке с экзальтиро­ванной графоманкой Лизой… 
+                                        Герой постоянно попадает в комические положения, навеянные Набокову его 
+                                        собственным преподава­тельским опытом в колледже Уэллсли и Кор­нелльском университете.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>3</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>«Бледный огонь» (1962)</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Комментатор по имени Кинбот узурпирует контроль над поэ­мой покойного Джона Шейда. 
+                                        В коми­чески разрос­шихся псевдофи­лоло­гических коммен­тариях он высекает из попавшего 
+                                        в его цепкие руки ману­скрипта никак не следующие из пря­мого понимания текста смыслы. 
+                                        При этом творимый у нас на глазах параллельный сюжет фантастически увлекателен, ему 
+                                        становится тесно в заданных жанром коммен­тария рамках, и в конце концов он посте­пенно 
+                                        вытесняет собой изначальную экспозицию, попутно выворачивая наизнан­ку начала и концы, 
+                                        меняя в карнавальном духе роли и идентич­ности персонажей и даже ставя под сом­нение 
+                                        психическое здоровье самого публикатора поэмы.
+                                    </Paragraph>
+                                    <Paragraph/>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>2</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>«Лолита» (1955)</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Про скандальный роман о любви педо­фила Гумберта Гумберта к нимфетке 
+                                        (с легкой руки Набокова этот термин, описывающий сексуально привлека­тельную 
+                                        девочку-подростка, вошел в официальный кембриджский словарь английского языка) 
+                                        слышали даже те, кто не читал самой книги. Как Набоков признался в интервью 
+                                        жур­налу Playboy, сочиняя историю Лолиты, ему «при­шлось придумать Америку…».
+                                    </Paragraph>
+                                    <Paragraph/>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>1</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>«Дар» (1938)</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Роман воспитания (нем. Bildungsroman) «Дар» создавался четыре года: это 
+                                        исто­­рия о становлении молодого писа­теля и его хрупкой любви, о вза­имо­отношении 
+                                        поколений и столкно­вении культур, о жизни и смерти, о возвы­шающей силе 
+                                        искусства и месте худож­ника в исто­рии. Структурно «Дар» сравнивался с лентой Мëбиуса: 
+                                        Набоков не только ставит под сомнение автор­ские инстанции, но и применяет 
+                                        специфический повествовательный прием, закольцовывая книгу таким образом, 
+                                        чтобы финал романа перетекал в начало.
+                                    </Paragraph>
+                                    <Paragraph/>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <Section FontSize="14">
+                    <Paragraph>
+                        <Floater Width="200" HorizontalAlignment="Left">
+                            <BlockUIContainer>
+                                <Image Source="Data/content_dar.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+                        По прочтении очередной порции се­рийной публикации романа перевод­чик Георгий Гессен 
+                        написал Набокову из Парижа: «Дорогой Володя, прочитал „Дар“ и хочу тебе сказать, что ты — гений. 
+                        Ах, если бы ты отда­ленно иг­рал бы так в шахматы, или в теннис или в футбол, как пишешь, 
+                        подлец, то мог бы дать пешку Алехину, +15 Budge’y, в любой профессиональной команде сделать Hiden’a запасным голкипером»
+                    </Paragraph>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentReader>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" 
+                    HorizontalAlignment="Center">
+            <Button Content="Сохранить" Width="80" Margin="5" Click="Save"/>
+            <Button Content="Очистить" Width="80" Margin="5" Click="Clear"/>
+            <Button Content="Открыть" Width="80" Margin="5" Click="Open"/>
+        </StackPanel>
+    </Grid>
+</Window>
